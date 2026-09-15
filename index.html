@@ -225,6 +225,7 @@
         }
     </style>
     <base target="_blank">
+<base target="_blank">
 </head>
 <body>
 
@@ -300,7 +301,7 @@
         <div class="single-container">
             <div class="single-visual reveal">
                 <div class="single-cover-large">
-                    <img src="peace-cover.jpg" alt="Peace For My Mada Single Cover" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'600\'%3E%3Crect fill=\'%23111\' width=\'600\' height=\'600\'/%3E%3Ctext fill=\'%23ff3333\' font-family=\'Oswald\' font-size=\'50\' x=\'50%25\' y=\'50%25\' text-anchor=\'middle\' dominant-baseline=\'middle\'%3EPEACE FOR MY MADA%3C/text%3E%3C/svg%3E'">
+                    <img src="peace-cover.jpg" alt="Peace For My Mada Single Cover" onerror="this.src='data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='600'%3E%3Crect fill='%23111' width='600' height='600'/%3E%3Ctext fill='%23ff3333' font-family='Oswald' font-size='50' x='50%25' y='50%25' text-anchor='middle' dominant-baseline='middle'%3EPEACE FOR MY MADA%3C/text%3E%3C/svg%3E'">
                 </div>
                 <div class="single-actions-visual">
                     <a href="#spotify" class="btn-primary" target="_self"><i class="fas fa-play"></i> <span data-i18n="btnListen">Écouter maintenant</span></a>
@@ -327,12 +328,511 @@
             <h2 class="section-title" data-i18n="titleListenNow">Écoute sur Spotify</h2>
         </div>
         <div class="spotify-container reveal">
-            <iframe src="https://open.spotify.com/embed/track/YOUR_TRACK_ID?utm_source=generator&theme=0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe 
+                src="https://open.spotify.com/embed/playlist/2QsxrcxNpJvbGjA7AKKDgq?utm_source=generator&theme=0" 
+                allowfullscreen="" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+            </iframe>
         </div>
-        <div class="spotify-info">
-            <i class="fab fa-spotify"></i> <span data-i18n="spotifyNote">Connectez-vous à Spotify pour profiter du morceau en entier.</span>
+        <p class="spotify-info reveal"><i class="fab fa-spotify"></i> <span data-i18n="spotifyInfo">Écoute directement depuis Spotify sans quitter le site</span></p>
+    </section>
+
+    <section class="music-section" id="music">
+        <div class="section-header reveal">
+            <div class="section-label" data-i18n="labelStreaming">Streaming</div>
+            <h2 class="section-title" data-i18n="titleMusic">Musiques</h2>
+        </div>
+        <div class="music-platforms reveal">
+            <a href="#spotify" class="platform-card" target="_self">
+                <i class="fab fa-spotify platform-icon" style="color: #1DB954;"></i>
+                <h3 class="platform-name">Spotify</h3>
+                <p class="platform-action" data-i18n="actionListen">Écouter</p>
+            </a>
+            <a href="#" class="platform-card">
+                <i class="fab fa-apple platform-icon" style="color: #FA243C;"></i>
+                <h3 class="platform-name">Apple Music</h3>
+                <p class="platform-action" data-i18n="actionListen">Écouter</p>
+            </a>
+            <a href="#" class="platform-card">
+                <i class="fab fa-soundcloud platform-icon" style="color: #FF5500;"></i>
+                <h3 class="platform-name">SoundCloud</h3>
+                <p class="platform-action" data-i18n="actionListen">Écouter</p>
+            </a>
         </div>
     </section>
 
+    <section class="tour-section" id="tour">
+        <div class="tour-content reveal">
+            <div class="section-header">
+                <div class="section-label" data-i18n="labelLive">Live</div>
+                <h2 class="section-title" data-i18n="titleTour">Tournée</h2>
+            </div>
+            <div class="tour-dates-container">
+                <div class="tour-date-card green">
+                    <div class="date-info-left">
+                        <div class="date-day">15 AOÛT 2026</div>
+                        <div class="date-venue">Semana Cultural <span class="date-city">- AÇORES 🇵🇹</span></div>
+                    </div>
+                    <div class="date-badge-special" data-i18n="badgeFestival2">Festival</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bio-section" id="bio">
+        <div class="bio-container">
+            <div class="bio-portrait reveal">
+                <img src="bio-photo.jpg" alt="Ivan Kandu" onerror="this.parentElement.innerHTML='<div style='width:100%;height:500px;display:flex;align-items:center;justify-content:center;background:#222;color:#666;text-align:center;padding:20px;'>Photo Artiste</div>'">
+            </div>
+            <div class="bio-content reveal">
+                <h2>Ivan Kandu</h2>
+                <div class="bio-role" data-i18n="bioRole">Artiste • Chanteur • Compositeur</div>
+                <p class="bio-text" data-i18n="bioText1">
+                    Né le 12 janvier 1993 en République démocratique du Congo, <strong>Ivan Kandu</strong> est un artiste suisse au parcours vibrant et multiculturel. Arrivé en Suisse en 2006, il grandit entre le Tessin et le canton de Vaud, où il forge son identité artistique unique.
+                </p>
+                <p class="bio-text" data-i18n="bioText2">
+                    Son histoire avec la musique commence très tôt : à seulement 10 ans, il devient la voix solo de la chorale « Les Anges du Seigneur ». Cette première scène révèle une présence naturelle et une puissance vocale. Influencé par le <strong>RnB</strong>, la <strong>Rumba</strong>, la <strong>Pop</strong> et l'<strong>Afropop</strong>, Ivan écrit et compose en français, italien, lingala et anglais.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="social-section" id="social">
+        <div class="section-header reveal">
+            <div class="section-label" data-i18n="labelConnect">Connectons-nous</div>
+            <h2 class="section-title" data-i18n="titleSocial">Réseaux Sociaux</h2>
+        </div>
+        <div class="social-platforms reveal">
+            <a href="https://www.instagram.com/ik_ivk" class="social-card instagram">
+                <i class="fab fa-instagram social-card-icon"></i>
+                <h3 class="social-card-name">Instagram</h3>
+                <span class="social-card-action" data-i18n="actionFollow">Suivre</span>
+            </a>
+            <a href="https://www.tiktok.com/@ik_ivk" class="social-card tiktok">
+                <i class="fab fa-tiktok social-card-icon"></i>
+                <h3 class="social-card-name">TikTok</h3>
+                <span class="social-card-action" data-i18n="actionFollow">Suivre</span>
+            </a>
+            <a href="#" class="social-card facebook">
+                <i class="fab fa-facebook-f social-card-icon"></i>
+                <h3 class="social-card-name">Facebook</h3>
+                <span class="social-card-action" data-i18n="actionFollow">Suivre</span>
+            </a>
+        </div>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+        <div class="section-header reveal">
+            <div class="section-label" data-i18n="labelMedia">Médias</div>
+            <h2 class="section-title" data-i18n="titleGallery">Galerie Photos</h2>
+        </div>
+        <div class="folder-wrapper reveal" onclick="openGalleryModal()">
+            <div class="folder-icon-container">
+                <div class="folder-back"></div>
+                <div class="folder-paper1"></div>
+                <div class="folder-paper2"></div>
+                <div class="folder-front"><i class="fas fa-camera"></i></div>
+            </div>
+            <div class="folder-text" data-i18n="folderOpen">Ouvrir l'album</div>
+        </div>
+    </section>
+
+    <div class="gallery-modal" id="galleryModal">
+        <div class="gallery-modal-close" onclick="closeGalleryModal()"><i class="fas fa-times"></i></div>
+        <div class="gallery-grid-inner">
+            <div class="gallery-item-inner"><img src="photo1.jpg" onerror="this.src='data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect fill='%23333' width='400' height='400'/%3E%3C/svg%3E'"></div>
+            <div class="gallery-item-inner"><img src="photo2.jpg" onerror="this.src='data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect fill='%23444' width='400' height='400'/%3E%3C/svg%3E'"></div>
+            <div class="gallery-item-inner"><img src="photo3.jpg" onerror="this.src='data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect fill='%23333' width='400' height='400'/%3E%3C/svg%3E'"></div>
+            <div class="gallery-item-inner"><img src="photo4.jpg" onerror="this.src='data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect fill='%23444' width='400' height='400'/%3E%3C/svg%3E'"></div>
+            <div class="gallery-item-inner"><img src="photo5.jpg" onerror="this.src='data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect fill='%23333' width='400' height='400'/%3E%3C/svg%3E'"></div>
+            <div class="gallery-item-inner"><img src="photo6.jpg" onerror="this.src='data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect fill='%23444' width='400' height='400'/%3E%3C/svg%3E'"></div>
+        </div>
+    </div>
+
+    <section class="newsletter-section">
+        <div class="newsletter-content reveal">
+            <h2 class="newsletter-title" data-i18n="newsTitle">Rejoins le Mouvement</h2>
+            <p class="newsletter-subtitle" data-i18n="newsSubtitle">Inscris-toi pour recevoir en exclusivité les nouveaux morceaux et actualités.</p>
+            <form action="TON_LIEN_ICI" method="POST" class="newsletter-form-premium">
+                <input type="email" name="EMAIL" class="newsletter-input-premium" placeholder="Ton adresse email" data-i18n-placeholder="placeholderEmail" required>
+                <button type="submit" class="newsletter-btn-premium" data-i18n="btnSubscribe">S'inscrire</button>
+            </form>
+            <p class="newsletter-guarantee"><i class="fas fa-lock"></i> <span data-i18n="newsGuarantee">Pas de spam, désinscription possible à tout moment</span></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4 class="footer-title" data-i18n="footerContact">Contact / Pro</h4>
+                <ul class="footer-links">
+                    <li><a href="mailto:jessic.perrin@gmail.com">jessic.perrin@gmail.com</a></li>
+                    <li><a href="tel:+41766879192">+41 76 687 91 92</a></li>
+                    <li data-i18n="footerManager">Manager: Jessica Perrin</li>
+                </ul>
+            </div>
+            <div class="footer-column" style="margin-right: auto;">
+                <div class="footer-brand">IK</div>
+                <p class="footer-tagline" data-i18n="footerTagline">Musique sans frontières.<br>Un voyage entre l'Afrique et l'Europe.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="footerCopy">© 2026 Ivan Kandu (IK). Tous droits réservés.</p>
+            <div class="footer-socials">
+                <a href="https://instagram.com/ik_ivk"><i class="fab fa-instagram"></i></a>
+                <a href="https://tiktok.com/@ik_ivk"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const translations = {
+            fr: {
+                startBtn: "Entrer dans l'univers",
+                navSingle: "Nouveau Single", navListen: "Écouter", navMusic: "Musiques",
+                navTour: "Tournée", navBio: "Bio", navGallery: "Photos",
+                botIntro: "Salut ! Je suis IKbot, je te tiendrai au courant des actus !",
+                heroLabel: "Nouveau Single",
+                heroSubtitle: "Disponible sur toutes les plateformes",
+                scrollDiscover: "Découvrir",
+                btnListen: "Écouter maintenant",
+                badgeNew: "Nouveau Single",
+                singleDesc: "Un hommage puissant et sincère dédié à celle qui a tout donné. Peace For My Mada révèle toute l'émotion et la profondeur d'IK dans un single touchant.",
+                labelListen: "Écoute", titleListenNow: "Écoute sur Spotify",
+                spotifyInfo: "Écoute directement depuis Spotify sans quitter le site",
+                labelStreaming: "Streaming", titleMusic: "Musiques", actionListen: "Écouter",
+                labelLive: "Live", titleTour: "Tournée",
+                badgeFestival2: "Festival",
+                bioRole: "Artiste • Chanteur • Compositeur",
+                bioText1: "Né le 12 janvier 1993 en République démocratique du Congo, <strong>Ivan Kandu</strong> est un artiste suisse au parcours vibrant et multiculturel. Arrivé en Suisse en 2006, il grandit entre le Tessin et le canton de Vaud, où il forge son identité artistique unique.",
+                bioText2: "Son histoire avec la musique commence très tôt : à seulement 10 ans, il devient la voix solo de la chorale « Les Anges du Seigneur ». Cette première scène révèle une présence naturelle et une puissance vocale. Influencé par le <strong>RnB</strong>, la <strong>Rumba</strong>, la <strong>Pop</strong> et l'<strong>Afropop</strong>, Ivan écrit et compose en français, italien, lingala et anglais.",
+                labelConnect: "Connectons-nous", titleSocial: "Réseaux Sociaux", actionFollow: "Suivre",
+                labelMedia: "Médias", titleGallery: "Galerie Photos", folderOpen: "Ouvrir l'album",
+                newsTitle: "Rejoins le Mouvement",
+                newsSubtitle: "Inscris-toi pour recevoir en exclusivité les nouveaux morceaux et actualités.",
+                placeholderEmail: "Ton adresse email", btnSubscribe: "S'inscrire",
+                newsGuarantee: "Pas de spam, désinscription possible à tout moment",
+                footerContact: "Contact / Pro", footerManager: "Manager: Jessica Perrin",
+                footerTagline: "Musique sans frontières.<br>Un voyage entre l'Afrique et l'Europe.",
+                footerCopy: "© 2026 Ivan Kandu (IK). Tous droits réservés."
+            },
+            en: {
+                startBtn: "Enter the Universe",
+                navSingle: "New Single", navListen: "Listen", navMusic: "Music",
+                navTour: "Tour", navBio: "Bio", navGallery: "Photos",
+                botIntro: "Hi! I'm IKbot, I'll keep you updated on the latest news!",
+                heroLabel: "New Single",
+                heroSubtitle: "Available on all platforms",
+                scrollDiscover: "Discover",
+                btnListen: "Listen now",
+                badgeNew: "New Single",
+                singleDesc: "A powerful and sincere tribute dedicated to the one who gave everything. Peace For My Mada reveals all the emotion and depth of IK in a touching single.",
+                labelListen: "Listen", titleListenNow: "Listen on Spotify",
+                spotifyInfo: "Listen directly from Spotify without leaving the site",
+                labelStreaming: "Streaming", titleMusic: "Music", actionListen: "Listen",
+                labelLive: "Live", titleTour: "Tour",
+                badgeFestival2: "Festival",
+                bioRole: "Artist • Singer • Songwriter",
+                bioText1: "Born on January 12, 1993, in the Democratic Republic of Congo, <strong>Ivan Kandu</strong> is a Swiss artist with a vibrant and multicultural journey. Arriving in Switzerland in 2006, he grew up between Ticino and the canton of Vaud, where he forged his unique artistic identity.",
+                bioText2: "His story with music begins very early: at just 10 years old, he becomes the solo voice of the choir « Les Anges du Seigneur ». This first stage reveals a natural presence and vocal power. Influenced by <strong>RnB</strong>, <strong>Rumba</strong>, <strong>Pop</strong> and <strong>Afropop</strong>, Ivan writes and composes in French, Italian, Lingala and English.",
+                labelConnect: "Let's Connect", titleSocial: "Social Networks", actionFollow: "Follow",
+                labelMedia: "Media", titleGallery: "Photo Gallery", folderOpen: "Open album",
+                newsTitle: "Join the Movement",
+                newsSubtitle: "Sign up to exclusively receive new tracks and news.",
+                placeholderEmail: "Your email address", btnSubscribe: "Subscribe",
+                newsGuarantee: "No spam, unsubscribe at any time",
+                footerContact: "Contact / Pro", footerManager: "Manager: Jessica Perrin",
+                footerTagline: "Music without borders.<br>A journey between Africa and Europe.",
+                footerCopy: "© 2026 Ivan Kandu (IK). All rights reserved."
+            },
+            it: {
+                startBtn: "Entra nell'Universo",
+                navSingle: "Nuovo Singolo", navListen: "Ascolta", navMusic: "Musica",
+                navTour: "Tour", navBio: "Bio", navGallery: "Foto",
+                botIntro: "Ciao! Sono IKbot, ti terrò aggiornato sulle novità!",
+                heroLabel: "Nuovo Singolo",
+                heroSubtitle: "Disponibile su tutte le piattaforme",
+                scrollDiscover: "Scopri",
+                btnListen: "Ascolta ora",
+                badgeNew: "Nuovo Singolo",
+                singleDesc: "Un omaggio potente e sincero dedicato a chi ha dato tutto. Peace For My Mada rivela tutta l'emozione e la profondità di IK in un singolo toccante.",
+                labelListen: "Ascolta", titleListenNow: "Ascolta su Spotify",
+                spotifyInfo: "Ascolta direttamente da Spotify senza uscire dal sito",
+                labelStreaming: "Streaming", titleMusic: "Musica", actionListen: "Ascolta",
+                labelLive: "Live", titleTour: "Tour",
+                badgeFestival2: "Festival",
+                bioRole: "Artista • Cantante • Compositore",
+                bioText1: "Nato il 12 gennaio 1993 nella Repubblica Democratica del Congo, <strong>Ivan Kandu</strong> è un artista svizzero con un percorso vibrante e multiculturale. Arrivato in Svizzera nel 2006, cresce tra il Ticino e il Canton Vaud, dove forgia la sua identità artistica unica.",
+                bioText2: "La sua storia con la musica inizia molto presto: a soli 10 anni, diventa la voce solista del coro « Les Anges du Seigneur ». Questa prima scena rivela una presenza naturale e una potenza vocale. Influenzato dal <strong>RnB</strong>, la <strong>Rumba</strong>, la <strong>Pop</strong> e l'<strong>Afropop</strong>, Ivan scrive e compone in francese, italiano, lingala e inglese.",
+                labelConnect: "Connettiamoci", titleSocial: "Social Network", actionFollow: "Segui",
+                labelMedia: "Media", titleGallery: "Galleria Foto", folderOpen: "Apri album",
+                newsTitle: "Unisciti al Movimento",
+                newsSubtitle: "Iscriviti per ricevere in esclusiva i nuovi brani e le novità.",
+                placeholderEmail: "Il tuo indirizzo email", btnSubscribe: "Iscriviti",
+                newsGuarantee: "Nessuno spam, disiscrizione possibile in qualsiasi momento",
+                footerContact: "Contatto / Pro", footerManager: "Manager: Jessica Perrin",
+                footerTagline: "Musica senza confini.<br>Un viaggio tra l'Africa e l'Europa.",
+                footerCopy: "© 2026 Ivan Kandu (IK). Tutti i diritti riservati."
+            },
+            de: {
+                startBtn: "Betrete das Universum",
+                navSingle: "Neue Single", navListen: "Anhören", navMusic: "Musik",
+                navTour: "Tour", navBio: "Bio", navGallery: "Fotos",
+                botIntro: "Hallo! Ich bin IKbot, ich halte dich auf dem Laufenden!",
+                heroLabel: "Neue Single",
+                heroSubtitle: "Auf allen Plattformen verfügbar",
+                scrollDiscover: "Entdecken",
+                btnListen: "Jetzt anhören",
+                badgeNew: "Neue Single",
+                singleDesc: "Eine kraftvolle und aufrichtige Hommage an diejenige, die alles gegeben hat. Peace For My Mada enthüllt die ganze Emotion und Tiefe von IK in einer berührenden Single.",
+                labelListen: "Anhören", titleListenNow: "Auf Spotify anhören",
+                spotifyInfo: "Höre direkt von Spotify, ohne die Seite zu verlassen",
+                labelStreaming: "Streaming", titleMusic: "Musik", actionListen: "Anhören",
+                labelLive: "Live", titleTour: "Tour",
+                badgeFestival2: "Festival",
+                bioRole: "Künstler • Sänger • Komponist",
+                bioText1: "Geboren am 12. Januar 1993 in der Demokratischen Republik Kongo, ist <strong>Ivan Kandu</strong> ein Schweizer Künstler mit einer lebendigen und multikulturellen Reise. 2006 in die Schweiz gekommen, wächst er zwischen dem Tessin und dem Kanton Waadt auf, wo er seine einzigartige künstlerische Identität schmiedet.",
+                bioText2: "Seine Geschichte mit der Musik beginnt sehr früh: Mit nur 10 Jahren wird er zur Solostimme des Chores « Les Anges du Seigneur ». Diese erste Bühne offenbart eine natürliche Präsenz und eine stimmliche Kraft. Beeinflusst von <strong>RnB</strong>, <strong>Rumba</strong>, <strong>Pop</strong> und <strong>Afropop</strong>, schreibt und komponiert Ivan auf Französisch, Italienisch, Lingala und Englisch.",
+                labelConnect: "Lass uns verbinden", titleSocial: "Soziale Netzwerke", actionFollow: "Folgen",
+                labelMedia: "Medien", titleGallery: "Fotogalerie", folderOpen: "Album öffnen",
+                newsTitle: "Bewegung beitreten",
+                newsSubtitle: "Melde dich an, um exklusiv neue Songs und Neuigkeiten zu erhalten.",
+                placeholderEmail: "Deine E-Mail-Adresse", btnSubscribe: "Anmelden",
+                newsGuarantee: "Kein Spam, jederzeit abmelden möglich",
+                footerContact: "Kontakt / Pro", footerManager: "Manager: Jessica Perrin",
+                footerTagline: "Musik ohne Grenzen.<br>Eine Reise zwischen Afrika und Europa.",
+                footerCopy: "© 2026 Ivan Kandu (IK). Alle Rechte vorbehalten."
+            },
+            ln: {
+                startBtn: "Kota na Mokili",
+                navSingle: "Single ya Sika", navListen: "Yoka", navMusic: "Miziki",
+                navTour: "Tour", navBio: "Bio", navGallery: "Bafoto",
+                botIntro: "Mbote! Nazali IKbot, nakokendebisa yo na ba nouvelles!",
+                heroLabel: "Single ya Sika",
+                heroSubtitle: "Ezali na ba plateformes nionso",
+                scrollDiscover: "Kotala",
+                btnListen: "Yoka sik'awa",
+                badgeNew: "Single ya Sika",
+                singleDesc: "Hommage ya makasi mpe ya solo oyo etaleli mwasi oyo apesaki nionso. Peace For My Mada elongoli emotion nionso mpe profondeur ya IK na single oyo ezali na mawa.",
+                labelListen: "Yoka", titleListenNow: "Yoka na Spotify",
+                spotifyInfo: "Yoka directement na Spotify sans quitter site",
+                labelStreaming: "Streaming", titleMusic: "Miziki", actionListen: "Yoka",
+                labelLive: "Live", titleTour: "Tour",
+                badgeFestival2: "Festival",
+                bioRole: "Artiste • Mopayi • Mocompositeur",
+                bioText1: "Abotama na 12 janvier 1993 na Republique Democratique du Congo, <strong>Ivan Kandu</strong> azali artiste suisse na parcours oyo ezali na boule mpe na ba cultures mingi. Akóti na Suisse na 2006, akulaka na kati ya Tessin mpe canton ya Vaud, wapi akomaki identité artistique na ye ya solo.",
+                bioText2: "Histoire na ye na miziki ebandaka noki: na mbula 10 kaka, azali voix solo ya chorale « Les Anges du Seigneur ». Scène ya liboso elongoli présence naturelle mpe puissance vocale. Influencé na <strong>RnB</strong>, <strong>Rumba</strong>, <strong>Pop</strong> mpe <strong>Afropop</strong>, Ivan akomaka na français, italien, lingala mpe anglais.",
+                labelConnect: "Tokokani", titleSocial: "Ba Réseaux Sociaux", actionFollow: "Suivre",
+                labelMedia: "Médias", titleGallery: "Galerie ya Ba Photo", folderOpen: "Fungola album",
+                newsTitle: "Kota na Mouvement",
+                newsSubtitle: "Inscris-toi mpo na kozwa ba exclusivité ya ba nouveaux morceaux mpe ba actualités.",
+                placeholderEmail: "Adresse email na yo", btnSubscribe: "S'inscrire",
+                newsGuarantee: "Spam te, désinscription ezali na n'importe quand",
+                footerContact: "Contact / Pro", footerManager: "Manager: Jessica Perrin",
+                footerTagline: "Miziki sans frontières.<br>Voyage na kati ya Afrique mpe Europe.",
+                footerCopy: "© 2026 Ivan Kandu (IK). Ba droits nionso ezali réservés."
+            },
+            pt: {
+                startBtn: "Entrar no Universo",
+                navSingle: "Novo Single", navListen: "Ouvir", navMusic: "Músicas",
+                navTour: "Tour", navBio: "Bio", navGallery: "Fotos",
+                botIntro: "Olá! Sou o IKbot, vou manter-te atualizado sobre as novidades!",
+                heroLabel: "Novo Single",
+                heroSubtitle: "Disponível em todas as plataformas",
+                scrollDiscover: "Descobrir",
+                btnListen: "Ouvir agora",
+                badgeNew: "Novo Single",
+                singleDesc: "Uma homenagem poderosa e sincera dedicada àquela que deu tudo. Peace For My Mada revela toda a emoção e profundidade de IK num single tocante.",
+                labelListen: "Ouvir", titleListenNow: "Ouvir no Spotify",
+                spotifyInfo: "Ouve diretamente do Spotify sem sair do site",
+                labelStreaming: "Streaming", titleMusic: "Músicas", actionListen: "Ouvir",
+                labelLive: "Live", titleTour: "Tour",
+                badgeFestival2: "Festival",
+                bioRole: "Artista • Cantor • Compositor",
+                bioText1: "Nascido a 12 de janeiro de 1993 na República Democrática do Congo, <strong>Ivan Kandu</strong> é um artista suíço com um percurso vibrante e multicultural. Chegou à Suíça em 2006, cresceu entre o Ticino e o cantão de Vaud, onde forjou a sua identidade artística única.",
+                bioText2: "A sua história com a música começa muito cedo: aos apenas 10 anos, torna-se a voz solo do coro « Les Anges du Seigneur ». Este primeiro palco revela uma presença natural e um poder vocal. Influenciado pelo <strong>RnB</strong>, a <strong>Rumba</strong>, a <strong>Pop</strong> e o <strong>Afropop</strong>, Ivan escreve e compõe em francês, italiano, lingala e inglês.",
+                labelConnect: "Vamos Conectar", titleSocial: "Redes Sociais", actionFollow: "Seguir",
+                labelMedia: "Média", titleGallery: "Galeria de Fotos", folderOpen: "Abrir álbum",
+                newsTitle: "Junta-te ao Movimento",
+                newsSubtitle: "Inscreve-te para receber em exclusividade as novas faixas e novidades.",
+                placeholderEmail: "O teu endereço de email", btnSubscribe: "Inscrever",
+                newsGuarantee: "Sem spam, cancelamento possível a qualquer momento",
+                footerContact: "Contacto / Pro", footerManager: "Manager: Jessica Perrin",
+                footerTagline: "Música sem fronteiras.<br>Uma viagem entre África e Europa.",
+                footerCopy: "© 2026 Ivan Kandu (IK). Todos os direitos reservados."
+            }
+        };
+
+        const langConfig = {
+            fr: { flag: '🇫🇷', code: 'FR', name: 'Français' },
+            en: { flag: '🇬🇧', code: 'EN', name: 'English' },
+            it: { flag: '🇮🇹', code: 'IT', name: 'Italiano' },
+            de: { flag: '🇩🇪', code: 'DE', name: 'Deutsch' },
+            ln: { flag: '🇨🇩', code: 'LN', name: 'Lingala' },
+            pt: { flag: '🇵🇹', code: 'PT', name: 'Português' }
+        };
+
+        let currentLang = 'fr';
+
+        function changeLanguage(lang) {
+            currentLang = lang;
+            const t = translations[lang];
+            const config = langConfig[lang];
+            document.getElementById('langToggle').innerHTML = `
+                <span class="lang-flag">${config.flag}</span>
+                <span class="lang-code">${config.code}</span>
+                <i class="fas fa-chevron-down lang-arrow"></i>
+            `;
+            document.querySelectorAll('.lang-option').forEach(opt => {
+                opt.classList.toggle('active', opt.dataset.lang === lang);
+            });
+            document.documentElement.lang = lang === 'ln' ? 'ln' : lang;
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.dataset.i18n;
+                if (t[key]) el.innerHTML = t[key];
+            });
+            document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+                const key = el.dataset.i18nPlaceholder;
+                if (t[key]) el.placeholder = t[key];
+            });
+            updateBotMessages(lang);
+            localStorage.setItem('ik-lang', lang);
+        }
+
+        const botMessagesByLang = {
+            fr: [
+                "🎵 Mon nouveau single 'PEACE FOR MY MADA' est sorti ! L'as-tu écouté ?",
+                "🔥 Prochain rendez-vous : Semana Cultural aux Açores le 15 Août !",
+                "👉 N'oublie pas de me suivre sur TikTok et Instagram pour les coulisses.",
+                "🎧 Retrouve tous mes sons sur Spotify et Apple Music.",
+                "📸 Jette un oeil à mon dossier photo dans la section Médias !",
+                "✉️ Inscris-toi à la newsletter pour ne rater aucune exclu."
+            ],
+            en: [
+                "🎵 My new single 'PEACE FOR MY MADA' is out! Have you listened to it?",
+                "🔥 Next stop: Semana Cultural in the Azores on August 15th!",
+                "👉 Don't forget to follow me on TikTok and Instagram for behind the scenes.",
+                "🎧 Find all my tracks on Spotify and Apple Music.",
+                "📸 Check out my photo folder in the Media section!",
+                "✉️ Sign up for the newsletter so you don't miss any exclusives."
+            ],
+            it: [
+                "🎵 Il mio nuovo singolo 'PEACE FOR MY MADA' è uscito! L'hai ascoltato?",
+                "🔥 Prossima tappa: Semana Cultural alle Azzorre il 15 Agosto!",
+                "👉 Non dimenticare di seguirmi su TikTok e Instagram per i dietro le quinte.",
+                "🎧 Trova tutte le mie tracce su Spotify e Apple Music.",
+                "📸 Dai un'occhiata alla mia cartella foto nella sezione Media!",
+                "✉️ Iscriviti alla newsletter per non perdere nessuna esclusiva."
+            ],
+            de: [
+                "🎵 Meine neue Single 'PEACE FOR MY MADA' ist draußen! Hast du sie gehört?",
+                "🔥 Nächster Stopp: Semana Cultural auf den Azoren am 15. August!",
+                "👉 Vergiss nicht, mir auf TikTok und Instagram für Backstage zu folgen.",
+                "🎧 Finde alle meine Tracks auf Spotify und Apple Music.",
+                "📸 Wirf einen Blick auf meinen Fotosordner im Medienbereich!",
+                "✉️ Melde dich für den Newsletter an, um keine Exklusivität zu verpassen."
+            ],
+            ln: [
+                "🎵 Single ya sika 'PEACE FOR MY MADA' euti! Oyokaki ye?",
+                "🔥 Rendez-vous ya liboso: Semana Cultural na Açores na 15 Août!",
+                "👉 Kobosana te ya kofollow ngai na TikTok mpe Instagram mpo na ba coulisses.",
+                "🎧 Zwa ba sons nionso na ngai na Spotify mpe Apple Music.",
+                "📸 Tala dossier photo na ngai na section Médias!",
+                "✉️ Inscris-toi na newsletter mpo na kobosana exclu te."
+            ],
+            pt: [
+                "🎵 O meu novo single 'PEACE FOR MY MADA' saiu! Já ouviste?",
+                "🔥 Próxima paragem: Semana Cultural nos Açores a 15 de Agosto!",
+                "👉 Não te esqueças de me seguir no TikTok e Instagram para os bastidores.",
+                "🎧 Encontra todas as minhas faixas no Spotify e Apple Music.",
+                "📸 Dá uma olhada na minha pasta de fotos na secção Média!",
+                "✉️ Inscreve-te na newsletter para não perderes nenhuma exclusividade."
+            ]
+        };
+
+        function updateBotMessages(lang) {
+            botMessages = botMessagesByLang[lang] || botMessagesByLang['fr'];
+            botIndex = 0;
+            clearTimeout(botTimerHide);
+            clearTimeout(botTimerShow);
+            bubble.classList.remove('show');
+            setTimeout(showBotMessage, 500);
+        }
+
+        function startExperience() {
+            const audio = document.getElementById('jingleAudio');
+            if (audio) {
+                audio.play().catch(e => console.log("Lecture audio autorisée après clic"));
+            }
+            document.getElementById('startOverlay').classList.add('hidden');
+            document.body.style.overflow = 'auto';
+            setTimeout(startIKBot, 2000);
+        }
+
+        let botMessages = botMessagesByLang['fr'];
+        let botIndex = 0;
+        let botTimerShow, botTimerHide;
+        const bubble = document.getElementById('ikbot-bubble');
+
+        function startIKBot() { showBotMessage(); }
+
+        function showBotMessage() {
+            bubble.textContent = botMessages[botIndex];
+            bubble.classList.add('show');
+            botTimerHide = setTimeout(() => {
+                bubble.classList.remove('show');
+                botTimerShow = setTimeout(() => {
+                    botIndex = (botIndex + 1) % botMessages.length;
+                    showBotMessage();
+                }, 15000);
+            }, 8000);
+        }
+
+        function forceNextBotMessage() {
+            clearTimeout(botTimerHide);
+            clearTimeout(botTimerShow);
+            bubble.classList.remove('show');
+            botIndex = (botIndex + 1) % botMessages.length;
+            setTimeout(showBotMessage, 300);
+        }
+
+        function openGalleryModal() {
+            document.getElementById('galleryModal').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeGalleryModal() {
+            document.getElementById('galleryModal').classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            navbar.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('active');
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                if(this.getAttribute('href') === '#') return;
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const savedLang = localStorage.getItem('ik-lang');
+            if (savedLang && savedLang !== 'fr' && translations[savedLang]) {
+                changeLanguage(savedLang);
+            }
+        });
+    </script>
 </body>
 </html>
