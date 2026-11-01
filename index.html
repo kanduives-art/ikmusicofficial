@@ -9,7 +9,7 @@
     <base target="_blank">
 <base target="_blank">
 </head>
-<body class="waiting"><a class="skip-link" href="#single">Aller au contenu</a>
+<body class="waiting"><svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><symbol id="i-play" viewBox="0 0 24 24"><path d="m9 5 10 7-10 7z"/></symbol><symbol id="i-pause" viewBox="0 0 24 24"><path d="M9 5v14M15 5v14"/></symbol><symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></symbol><symbol id="i-external" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></symbol><symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol><symbol id="i-volume" viewBox="0 0 24 24"><path d="m11 5-6 4H2v6h3l6 4zM15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/></symbol><symbol id="i-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/><rect x="14" y="14" width="6" height="6" rx="1"/></symbol><symbol id="i-image" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="m3 16 6-6 7 10m-2-5 3-3 4 4"/></symbol><symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 8h16M4 16h16"/></symbol></defs></svg><a class="skip-link" href="#mainContent">Aller au contenu</a>
 
     <audio id="jingleAudio" src="jingle.mp3"></audio>
 
@@ -18,7 +18,7 @@
       <div class="intro-top"><span>IK / IVAN KANDU</span><span>OFFICIAL EXPERIENCE · 2026</span></div>
       <div class="intro-center"><span class="eyebrow">LA MUSIQUE SE VIT.</span><div class="start-logo">IK<span class="logo-dot">.</span></div>
       <p class="intro-line">Musique sans frontières.</p>
-      <button class="start-btn" onclick="startExperience()"><span data-i18n="startBtn">Entrer dans l'univers</span><span aria-hidden="true">↗</span></button>
+      <button class="start-btn" onclick="startExperience()"><span data-i18n="startBtn">Entrer dans l'univers</span><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-external"/></svg></button>
       <p class="sound-note"><span class="sound-bars"><i></i><i></i><i></i><i></i></span> Une expérience à écouter. Active le son.</p></div>
       <div class="intro-bottom"><span>AFRIQUE · EUROPE · LE MONDE</span><span>RnB / RUMBA / AFROPOP</span></div>
     </div>
@@ -27,7 +27,7 @@
         <div class="nav-left">
             <a href="#"  class="logo" target="_self" aria-label="Accueil IK">IK<span>.</span></a>
             <ul class="nav-links">
-                <li><a href="#single" data-i18n="navSingle" target="_self">Nouveau Single</a></li>
+                <li><a href="#home" data-i18n="navSingle" target="_self">Nouveau Single</a></li>
                 <li><a href="#spotify" data-i18n="navListen" target="_self">Écouter</a></li>
                 <li><a href="#music" data-i18n="navMusic" target="_self">Musiques</a></li>
                 <li><a href="#tour" data-i18n="navTour" target="_self">Tournée</a></li>
@@ -36,7 +36,7 @@
             </ul>
         </div>
 
-        <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button><div class="language-selector">
+        <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-menu"/></svg></button><div class="language-selector">
             <button class="lang-toggle" id="langToggle" aria-label="Choisir la langue" aria-expanded="false">
                 <span class="lang-flag">🇫🇷</span>
                 <span class="lang-code">FR</span>
@@ -66,7 +66,7 @@
     </nav>
 
     <aside id="ikbot-container" aria-label="Actualités IK">
-      <div id="ikbot-bubble" aria-live="polite"><div class="bot-heading"><span>IK INSIDER <small>● ACTUALITÉS</small></span><button id="botClose" aria-label="Fermer les actualités">×</button></div><p id="botText"></p><a id="botLink" href="#single">Découvrir ↗</a><button class="bot-next" onclick="forceNextBotMessage()" aria-label="Actualité suivante">→</button></div>
+      <div id="ikbot-bubble" aria-live="polite"><div class="bot-heading"><span>IK INSIDER <small>● ACTUALITÉS</small></span><button id="botClose" aria-label="Fermer les actualités"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-close"/></svg></button></div><p id="botText"></p><a id="botLink" href="#home">Découvrir ↗</a><button class="bot-next" onclick="forceNextBotMessage()" aria-label="Actualité suivante">→</button></div>
       <button id="ikbot-avatar" onclick="toggleBot()" aria-label="Ouvrir les actualités IK" aria-expanded="false">IK<span class="bot-light"></span></button>
     </aside>
     <main id="mainContent" inert>
@@ -75,32 +75,15 @@
       <div class="hero-meta"><span>IVAN KANDU / ARTISTE</span><span>DE L’INTIME À L’UNIVERSEL</span></div>
       <div class="hero-content"><div class="hero-label"><span class="live-dot"></span><span data-i18n="heroLabel">Nouveau Single</span> / 2026</div>
       <h1 class="hero-title">PEACE FOR<br>MY <em>MADA.</em></h1>
-      <div class="hero-lower"><p class="hero-subtitle" data-i18n="heroSubtitle">Disponible sur toutes les plateformes</p><a href="#spotify" class="btn-primary"><span class="play-symbol">▶</span><span data-i18n="btnListen">Écouter maintenant</span><span>↗</span></a></div></div>
-      <div class="hero-foot"><span>UNE VOIX. DES RACINES. AUCUNE FRONTIÈRE.</span><a href="#single" class="scroll-indicator"><span data-i18n="scrollDiscover">Découvrir</span> ↓</a><span>01 — 06</span></div>
+      <div class="hero-lower"><p class="hero-subtitle" data-i18n="heroSubtitle">Disponible sur toutes les plateformes</p><a href="#spotify" class="btn-primary"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-play"/></svg><span data-i18n="btnListen">Écouter maintenant</span><span>↗</span></a></div></div>
+      <div class="hero-foot"><span>UNE VOIX. DES RACINES. AUCUNE FRONTIÈRE.</span><a href="#videos" class="scroll-indicator"><span data-i18n="scrollDiscover">Découvrir</span> ↓</a><span>01 — 06</span></div>
     </section>
     <div class="ticker" aria-hidden="true"><div>IK · MUSIQUE SANS FRONTIÈRES · RNB · RUMBA · AFROPOP · IVAN KANDU · IK · MUSIQUE SANS FRONTIÈRES · RNB · RUMBA · AFROPOP · IVAN KANDU · </div></div>
-    <section class="single-section" id="single">
-        <div class="single-container">
-            <div class="single-visual reveal"><span class="image-caption">01 / À LA UNE</span>
-                <div class="single-cover-large">
-                    <img src="peace-cover.jpg" alt="Peace For My Mada Single Cover" onerror="this.src='data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='600'%3E%3Crect fill='%23111' width='600' height='600'/%3E%3Ctext fill='%23ff3333' font-family='Oswald' font-size='50' x='50%25' y='50%25' text-anchor='middle' dominant-baseline='middle'%3EPEACE FOR MY MADA%3C/text%3E%3C/svg%3E'">
-                </div>
-                <div class="single-actions-visual">
-                    <a href="#spotify" class="btn-primary" target="_self"><i class="fas fa-play"></i> <span data-i18n="btnListen">Écouter maintenant</span></a>
-                    <a href="#spotify" class="btn-secondary" target="_self"><i class="fab fa-spotify"></i> Spotify</a>
-                </div>
-            </div>
-            <div class="single-content reveal">
-                <div class="single-badge" data-i18n="badgeNew">Nouveau Single</div>
-                <h2 class="single-title-large">PEACE FOR<br>MY <em>MADA.</em></h2>
-                <div class="single-year">IK — SINGLE / 2026</div>
-                <p class="single-description" data-i18n="singleDesc">
-                    Un hommage puissant et sincère dédié à celle qui a tout donné.
-                    Peace For My Mada révèle toute l'émotion et la profondeur d'IK
-                    dans un single touchant.
-                </p>
-            </div>
-        </div>
+    <section class="videos-section" id="videos"><div class="section-header reveal"><div><span class="section-label">01 / À LA UNE</span><h2 class="section-title" data-i18n="liveHighlights">La scène. En direct.</h2></div><p>Deux scènes. La même énergie.</p></div>
+      <div class="show-films">
+        <article class="show-film reveal"><button class="film-open" onclick="openShow(1)" aria-label="Regarder le montage du concert en salle"><video class="ambient-video film-preview" muted loop playsinline preload="metadata" poster="show-1-poster.jpg" aria-hidden="true" tabindex="-1"><source src="ik-show-1.mp4" type="video/mp4"></video><span class="film-shade"></span><span class="film-topline">IK / LIVE SESSION 01 <span>EN SALLE</span></span><span class="film-play"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-play"/></svg></span><span class="film-bottom"><strong>L’ÉNERGIE<br>EN DIRECT.</strong><span>Regarder le film ↗<small>SON AU CHOIX</small></span></span></button><p>Concert en salle <span>00:26 / LIVE</span></p></article>
+        <article class="show-film reveal"><button class="film-open" onclick="openShow(2)" aria-label="Regarder le montage du concert en plein air"><video class="ambient-video film-preview" muted loop playsinline preload="metadata" poster="show-2-poster.jpg" aria-hidden="true" tabindex="-1"><source src="ik-show-2.mp4" type="video/mp4"></video><span class="film-shade"></span><span class="film-topline">IK / LIVE SESSION 02 <span>PLEIN AIR</span></span><span class="film-play"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-play"/></svg></span><span class="film-bottom"><strong>LA SCÈNE.<br>LE MOMENT.</strong><span>Regarder le film ↗<small>SON AU CHOIX</small></span></span></button><p>Concert en plein air <span>00:22 / LIVE</span></p></article>
+      </div><div class="films-note"><span class="live-dot"></span>Les images vivent en silence. À toi d’activer le son.<button class="motion-toggle secondary-motion" aria-pressed="false">Ⅱ Mettre les vidéos en pause</button></div>
     </section>
 
     <!-- ====== LECTEUR SPOTIFY INTÉGRÉ ====== -->
@@ -175,17 +158,11 @@
         </div><div class="album-invite"><button class="text-link album-link" onclick="openAlbum()">Explorer l’album <span>22 PHOTOS ↗</span></button><p>Sur scène, en studio, ailleurs. L’univers IK en images.</p></div>
     </section>
     <dialog class="gallery-modal album-dialog" id="galleryModal" aria-label="Album photo IK">
-      <header class="album-header"><div><span class="section-label">IK / ARCHIVES VISUELLES</span><h2>L’ALBUM<span>.</span></h2></div><div class="album-switch"><button id="gridMode" onclick="setGalleryMode('grid')" aria-pressed="true">▦ Vue d’ensemble</button><button id="viewerMode" onclick="setGalleryMode('viewer')" aria-pressed="false">▣ Lecture immersive</button></div><button class="gallery-modal-close" onclick="closeGalleryModal()" aria-label="Fermer la galerie">×</button></header>
+      <header class="album-header"><div><span class="section-label">IK / ARCHIVES VISUELLES</span><h2>L’ALBUM<span>.</span></h2></div><div class="album-switch"><button id="gridMode" onclick="setGalleryMode('grid')" aria-pressed="true"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-grid"/></svg><span>Vue d’ensemble</span></button><button id="viewerMode" onclick="setGalleryMode('viewer')" aria-pressed="false"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-image"/></svg><span>Lecture immersive</span></button></div><button class="gallery-modal-close" onclick="closeGalleryModal()" aria-label="Fermer la galerie"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-close"/></svg></button></header>
       <div id="albumOverview"><div class="album-filters" aria-label="Filtrer les photos"><button data-filter="all" class="selected" aria-pressed="true">Tout <span>22</span></button><button data-filter="live" aria-pressed="false">Live</button><button data-filter="portraits" aria-pressed="false">Portraits</button><button data-filter="instants" aria-pressed="false">Instants</button><button data-filter="artwork" aria-pressed="false">Artwork</button></div><div id="albumGrid" class="album-grid"></div></div>
-      <div id="albumViewer" hidden><div class="viewer-stage"><button class="gallery-prev" onclick="stepGallery(-1)" aria-label="Photo précédente">←</button><img id="galleryImage" src="img_0840.jpg" alt="IK en concert"><button class="gallery-next" onclick="stepGallery(1)" aria-label="Photo suivante">→</button></div><div class="viewer-caption"><span id="galleryCount"></span><p id="photoCaption"></p><button id="slideshowToggle" onclick="toggleSlideshow()" aria-pressed="false">▶ Diaporama</button></div><div id="filmstrip" class="filmstrip"></div></div>
+      <div id="albumViewer" hidden><div class="viewer-stage"><button class="gallery-prev" onclick="stepGallery(-1)" aria-label="Photo précédente"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg></button><img id="galleryImage" src="img_0840.jpg" alt="IK en concert"><button class="gallery-next" onclick="stepGallery(1)" aria-label="Photo suivante"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg></button></div><div class="viewer-caption"><span id="galleryCount"></span><p id="photoCaption"></p><button id="slideshowToggle" onclick="toggleSlideshow()" aria-pressed="false"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-play"/></svg><span>Diaporama</span></button></div><div id="filmstrip" class="filmstrip"></div></div>
     </dialog>
-    <section class="videos-section" id="videos"><div class="section-header reveal"><div><span class="section-label">06 / LIVE SESSIONS</span><h2 class="section-title" data-i18n="navVideos">Vidéos</h2></div><p>Deux scènes. La même énergie.</p></div>
-      <div class="show-films">
-        <article class="show-film reveal"><button class="film-open" onclick="openShow(1)" aria-label="Regarder le montage du concert en salle"><video class="ambient-video film-preview" muted loop playsinline preload="metadata" poster="show-1-poster.jpg" aria-hidden="true" tabindex="-1"><source src="ik-show-1.mp4" type="video/mp4"></video><span class="film-shade"></span><span class="film-topline">IK / LIVE SESSION 01 <span>EN SALLE</span></span><span class="film-play">▶</span><span class="film-bottom"><strong>L’ÉNERGIE<br>EN DIRECT.</strong><span>Regarder le film ↗<small>SON AU CHOIX</small></span></span></button><p>Concert en salle <span>00:26 / LIVE</span></p></article>
-        <article class="show-film reveal"><button class="film-open" onclick="openShow(2)" aria-label="Regarder le montage du concert en plein air"><video class="ambient-video film-preview" muted loop playsinline preload="metadata" poster="show-2-poster.jpg" aria-hidden="true" tabindex="-1"><source src="ik-show-2.mp4" type="video/mp4"></video><span class="film-shade"></span><span class="film-topline">IK / LIVE SESSION 02 <span>PLEIN AIR</span></span><span class="film-play">▶</span><span class="film-bottom"><strong>LA SCÈNE.<br>LE MOMENT.</strong><span>Regarder le film ↗<small>SON AU CHOIX</small></span></span></button><p>Concert en plein air <span>00:22 / LIVE</span></p></article>
-      </div><div class="films-note"><span class="live-dot"></span>Les images vivent en silence. À toi d’activer le son.<button class="motion-toggle secondary-motion" aria-pressed="false">Ⅱ Mettre les vidéos en pause</button></div>
-    </section>
-    <dialog id="showDialog" class="show-dialog" aria-label="Film du concert"><header><span id="showTitle">IK / LIVE SESSION</span><button onclick="closeShow()" aria-label="Fermer la vidéo">×</button></header><video id="showPlayer" controls playsinline preload="none"></video><footer><button id="showSound" onclick="toggleShowSound()">Activer le son ♫</button><a id="showDownload" href="ik-show-1.mp4" download>Télécharger le montage ↓</a></footer></dialog>
+    <dialog id="showDialog" class="show-dialog" aria-label="Film du concert"><header><span id="showTitle">IK / LIVE SESSION</span><button onclick="closeShow()" aria-label="Fermer la vidéo"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-close"/></svg></button></header><video id="showPlayer" controls playsinline preload="none"></video><footer><button id="showSound" onclick="toggleShowSound()">Activer le son ♫</button><a id="showDownload" href="ik-show-1.mp4" download>Télécharger le montage ↓</a></footer></dialog>
     <section class="newsletter-section">
         <div class="newsletter-content reveal">
             <h2 class="newsletter-title" data-i18n="newsTitle">Rejoins le Mouvement</h2>
@@ -194,7 +171,7 @@
         </div>
     </section>
 
-    </main><div class="audio-player" hidden><button id="audioToggle" aria-label="Mettre le single en pause">Ⅱ</button><div><span>IK / PEACE FOR MY MADA</span><small id="audioStatus">EXTRAIT DE BIENVENUE</small></div><span class="sound-bars"><i></i><i></i><i></i><i></i></span><button id="audioStop" aria-label="Arrêter et fermer le lecteur">×</button></div><footer>
+    </main><div class="audio-player" hidden><button id="audioToggle" aria-label="Mettre le single en pause"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-pause"/></svg></button><div><span>IK / PEACE FOR MY MADA</span><small id="audioStatus">EXTRAIT DE BIENVENUE</small></div><span class="sound-bars"><i></i><i></i><i></i><i></i></span><button id="audioStop" aria-label="Arrêter et fermer le lecteur"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-close"/></svg></button></div><footer>
         <div class="footer-content">
             <div class="footer-column">
                 <h4 class="footer-title" data-i18n="footerContact">Contact / Pro</h4>
@@ -219,6 +196,9 @@
     </footer>
 
     <script>
+        function uiIcon(name){return '<svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-'+name+'"/></svg>';}
+        const bioButton=document.createElement('button');bioButton.className='bio-expand';bioButton.setAttribute('aria-expanded','false');bioButton.innerHTML='Lire la bio '+uiIcon('arrow');bioButton.onclick=()=>{const expanded=document.querySelector('.bio-container').classList.toggle('expanded');bioButton.setAttribute('aria-expanded',String(expanded));bioButton.innerHTML=(expanded?'Réduire':'Lire la bio')+uiIcon('arrow');};document.querySelector('.bio-content').append(bioButton);
+
         const translations = {
             fr: {
                 startBtn: "Entrer dans l'univers",
@@ -441,7 +421,7 @@
           pt: ['Próximos shows','As próximas datas serão anunciadas aqui.','Novidades e bastidores no Instagram e TikTok.']
         };
         for (const [lang,t] of Object.entries(translations)) {
-          t.navVideos=({fr:'Vidéos',en:'Videos',it:'Video',de:'Videos',ln:'Bavideo',pt:'Vídeos'})[lang];t.titleTour=updates[lang][0]; t.navTour=updates[lang][0];t.showsSoon=updates[lang][1];
+          t.liveHighlights=({fr:'La scène. En direct.',en:'Live. On stage.',it:'Dal vivo. Sul palco.',de:'Live. Auf der Bühne.',ln:'Na scène. En direct.',pt:'Ao vivo. No palco.'})[lang];t.navVideos=({fr:'Vidéos',en:'Videos',it:'Video',de:'Videos',ln:'Bavideo',pt:'Vídeos'})[lang];t.titleTour=updates[lang][0]; t.navTour=updates[lang][0];t.showsSoon=updates[lang][1];
           t.newsSubtitle=updates[lang][2];
         }
         let entered=false, botIndex=0,botTimer,botDismissed=false;
@@ -449,16 +429,20 @@
         const audio=document.getElementById('jingleAudio');
         function updateBotMessages(){if(entered && bubble.classList.contains('show'))showBotMessage();}
         function showBotMessage(){
+          if(matchMedia('(max-width: 760px)').matches)return;
           const lang=currentLang;const t=translations[lang];
           const messages=[t.singleDesc,updates[lang][1],updates[lang][2]];
           document.getElementById('botText').textContent=messages[botIndex];
-          const link=document.getElementById('botLink');link.href=['#single','#tour','#social'][botIndex];link.textContent=[t.navSingle,t.navTour,t.titleSocial][botIndex]+' ↗';
+          const link=document.getElementById('botLink');link.href=['#home','#tour','#social'][botIndex];link.textContent=[t.navSingle,t.navTour,t.titleSocial][botIndex]+' ↗';
           bubble.classList.add('show');document.getElementById('ikbot-avatar').setAttribute('aria-expanded','true');
         }
         function forceNextBotMessage(){botIndex=(botIndex+1)%3;showBotMessage();}
         function closeBot(){bubble.classList.remove('show');document.getElementById('ikbot-avatar').setAttribute('aria-expanded','false');botDismissed=true;}
         function toggleBot(){bubble.classList.contains('show')?closeBot():showBotMessage();}
         document.getElementById('botClose').onclick=closeBot;
+        const botMobileQuery=matchMedia('(max-width: 760px)');
+        function syncBotAvailability(){const bot=document.getElementById('ikbot-container');bot.hidden=botMobileQuery.matches;bot.inert=botMobileQuery.matches;if(botMobileQuery.matches){clearTimeout(botTimer);closeBot();}}
+        botMobileQuery.addEventListener('change',syncBotAvailability);syncBotAvailability();
         function startExperience(){
           if(entered)return;entered=true;
           audio.play().catch(()=>{document.getElementById('audioStatus').textContent='Appuie sur lecture pour écouter';});
@@ -468,11 +452,11 @@
           document.getElementById('mainContent').inert=false;
           document.body.classList.remove('waiting');
           document.querySelector('.hero .btn-primary').focus({preventScroll:true});
-          botTimer=setTimeout(()=>{if(!botDismissed)showBotMessage();},6500);
+          if(!matchMedia('(max-width: 760px)').matches)botTimer=setTimeout(()=>{if(!botDismissed)showBotMessage();},6500);
         }
         const audioButton=document.getElementById('audioToggle');
         audioButton.onclick=()=>{if(audio.paused)audio.play().catch(()=>{});else audio.pause();};
-        function syncAudio(){audioButton.textContent=audio.paused?'▶':'Ⅱ';audioButton.setAttribute('aria-label',audio.paused?'Écouter le single':'Mettre le single en pause');document.querySelector('.audio-player').classList.toggle('paused',audio.paused);}
+        function syncAudio(){audioButton.innerHTML=uiIcon(audio.paused?'play':'pause');audioButton.setAttribute('aria-label',audio.paused?'Écouter le single':'Mettre le single en pause');document.querySelector('.audio-player').classList.toggle('paused',audio.paused);}
         audio.addEventListener('play',syncAudio);audio.addEventListener('pause',syncAudio);audio.addEventListener('ended',()=>{document.getElementById('audioStatus').textContent='RÉÉCOUTER L’EXTRAIT';syncAudio();});
         document.getElementById('audioStop').onclick=()=>{audio.pause();audio.currentTime=0;document.querySelector('.audio-player').hidden=true;};
         const photoItems=[{"src": "img_0840.jpg", "thumb": "thumb-img_0840.jpg", "category": "live", "alt": "IK en concert sous les lumières violettes"}, {"src": "img_0900.jpg", "thumb": "thumb-img_0900.jpg", "category": "live", "alt": "IK sur scène sous les lumières bleues"}, {"src": "img_0911.jpg", "thumb": "thumb-img_0911.jpg", "category": "live", "alt": "IK au micro devant les écrans de scène"}, {"src": "img_0036.jpg", "thumb": "thumb-img_0036.jpg", "category": "portraits", "alt": "IK au studio, appareil photo rouge à la main"}, {"src": "img_0030.jpg", "thumb": "thumb-img_0030.jpg", "category": "portraits", "alt": "Autoportrait d’IK au studio"}, {"src": "img_7688.jpg", "thumb": "thumb-img_7688.jpg", "category": "portraits", "alt": "IK en cagoule rouge dans un décor industriel"}, {"src": "img_7895.jpg", "thumb": "thumb-img_7895.jpg", "category": "instants", "alt": "IK devant le MAD"}, {"src": "img_1002.jpg", "thumb": "thumb-img_1002.jpg", "category": "instants", "alt": "IK au milieu des hortensias"}, {"src": "img_9132.jpg", "thumb": "thumb-img_9132.jpg", "category": "portraits", "alt": "Portrait d’IK à une table en bois"}, {"src": "img_9122.jpg", "thumb": "thumb-img_9122.jpg", "category": "instants", "alt": "IK dans un intérieur aux matières naturelles"}, {"src": "img_6364.jpg", "thumb": "thumb-img_6364.jpg", "category": "instants", "alt": "IK assis sur un véhicule militaire en extérieur"}, {"src": "img_0463.jpg", "thumb": "thumb-img_0463.jpg", "category": "artwork", "alt": "Illustration d’IK dans un décor de néons violets"}, {"src": "photo2.jpg", "thumb": "thumb-photo2.jpg", "category": "live", "alt": "Ivan Kandu — sur scène"}, {"src": "photo4.jpg", "thumb": "thumb-photo4.jpg", "category": "portraits", "alt": "Ivan Kandu — portrait"}, {"src": "photo5.jpg", "thumb": "thumb-photo5.jpg", "category": "portraits", "alt": "Ivan Kandu — portrait"}, {"src": "photo1.jpg", "thumb": "thumb-photo1.jpg", "category": "live", "alt": "Ivan Kandu — sur scène"}, {"src": "photo3.jpg", "thumb": "thumb-photo3.jpg", "category": "instants", "alt": "Ivan Kandu — instant de vie"}, {"src": "photo6.jpg", "thumb": "thumb-photo6.jpg", "category": "portraits", "alt": "Ivan Kandu — portrait"}, {"src": "photo7.jpg", "thumb": "thumb-photo7.jpg", "category": "portraits", "alt": "Ivan Kandu — portrait"}, {"src": "photo8.jpg", "thumb": "thumb-photo8.jpg", "category": "instants", "alt": "Ivan Kandu — instant de vie"}, {"src": "photo9.jpg", "thumb": "thumb-photo9.jpg", "category": "portraits", "alt": "Ivan Kandu — portrait"}, {"src": "photo10.jpg", "thumb": "thumb-photo10.jpg", "category": "portraits", "alt": "Ivan Kandu — portrait"}];
@@ -482,8 +466,8 @@
         function renderGrid(){albumGrid.innerHTML=photoItems.map((p,i)=>({p,i})).filter(({p})=>albumFilter==='all'||p.category===albumFilter).map(({p,i})=>`<button class="album-tile" onclick="showAlbumPhoto(${i})" aria-label="${p.alt}"><img src="${p.thumb}" alt="${p.alt}" loading="lazy"><span>${String(i+1).padStart(2,'0')} <span>↗</span></span></button>`).join('');}
         document.querySelectorAll('[data-filter]').forEach(b=>b.onclick=()=>{albumFilter=b.dataset.filter;document.querySelectorAll('[data-filter]').forEach(x=>{x.classList.toggle('selected',x===b);x.setAttribute('aria-pressed',String(x===b));});renderGrid();});
         function renderPhoto(){const p=photoItems[photoIndex];const img=document.getElementById('galleryImage');img.src=p.src;img.alt=p.alt;document.getElementById('galleryCount').textContent=String(photoIndex+1).padStart(2,'0')+' / '+photos.length;document.getElementById('photoCaption').textContent=p.alt;document.querySelectorAll('.filmstrip button').forEach((b,i)=>{b.classList.toggle('current',i===photoIndex);b.setAttribute('aria-current',String(i===photoIndex));});const active=document.querySelector('.filmstrip .current');if(active)active.scrollIntoView({block:'nearest',inline:'center',behavior:'smooth'});}
-        function stopSlideshow(){clearInterval(slideshowTimer);slideshowTimer=null;const b=document.getElementById('slideshowToggle');b.textContent='▶ Diaporama';b.setAttribute('aria-pressed','false');}
-        function toggleSlideshow(){if(slideshowTimer){stopSlideshow();return;}slideshowTimer=setInterval(()=>stepGallery(1),4500);const b=document.getElementById('slideshowToggle');b.textContent='Ⅱ Pause';b.setAttribute('aria-pressed','true');}
+        function stopSlideshow(){clearInterval(slideshowTimer);slideshowTimer=null;const b=document.getElementById('slideshowToggle');b.innerHTML=uiIcon('play')+'<span>Diaporama</span>';b.setAttribute('aria-pressed','false');}
+        function toggleSlideshow(){if(slideshowTimer){stopSlideshow();return;}slideshowTimer=setInterval(()=>stepGallery(1),4500);const b=document.getElementById('slideshowToggle');b.innerHTML=uiIcon('pause')+'<span>Pause</span>';b.setAttribute('aria-pressed','true');}
         function setGalleryMode(mode){galleryMode=mode;document.getElementById('albumOverview').hidden=mode!=='grid';document.getElementById('albumViewer').hidden=mode!=='viewer';document.getElementById('gridMode').setAttribute('aria-pressed',String(mode==='grid'));document.getElementById('viewerMode').setAttribute('aria-pressed',String(mode==='viewer'));gallery.classList.toggle('viewing',mode==='viewer');if(mode==='grid'){stopSlideshow();renderGrid();}else renderPhoto();}
         function showAlbumPhoto(i){stopSlideshow();photoIndex=i;setGalleryMode('viewer');}
         function openAlbum(){gallery.showModal();document.body.style.overflow='hidden';setGalleryMode('grid');}
@@ -498,14 +482,14 @@
         let motionPaused=matchMedia('(prefers-reduced-motion: reduce)').matches;
         const ambientVideos=[...document.querySelectorAll('.ambient-video')];
         const showDialog=document.getElementById('showDialog'),showPlayer=document.getElementById('showPlayer');
-        function updateMotion(){ambientVideos.forEach(v=>{const r=v.getBoundingClientRect();if(!motionPaused&&!document.hidden&&!showDialog.open&&r.bottom>0&&r.top<innerHeight&&entered)v.play().catch(()=>{});else v.pause();});document.querySelectorAll('.motion-toggle').forEach(b=>{b.setAttribute('aria-pressed',String(motionPaused));b.textContent=motionPaused?'▶ Reprendre les vidéos':'Ⅱ Mettre les vidéos en pause';});}
+        function updateMotion(){ambientVideos.forEach(v=>{const r=v.getBoundingClientRect();if(!motionPaused&&!document.hidden&&!showDialog.open&&r.bottom>0&&r.top<innerHeight&&entered)v.play().catch(()=>{});else v.pause();});document.querySelectorAll('.motion-toggle').forEach(b=>{b.setAttribute('aria-pressed',String(motionPaused));b.innerHTML=uiIcon(motionPaused?'play':'pause')+'<span>'+(motionPaused?'Reprendre':'Mettre en pause')+'</span>';b.setAttribute('aria-label',motionPaused?'Reprendre les vidéos':'Mettre les vidéos en pause');});}
         const videoObserver=new IntersectionObserver(updateMotion,{threshold:0.05});ambientVideos.forEach(v=>videoObserver.observe(v));
         document.querySelectorAll('.motion-toggle').forEach(b=>b.onclick=()=>{motionPaused=!motionPaused;updateMotion();});
         document.addEventListener('visibilitychange',updateMotion);
         document.querySelector('.start-btn').addEventListener('click',updateMotion);
-        function openShow(n){audio.pause();showPlayer.src='ik-show-'+n+'.mp4';showPlayer.poster='show-'+n+'-poster.jpg';showPlayer.muted=true;document.getElementById('showTitle').textContent=n===1?'IK / LIVE SESSION 01 — EN SALLE':'IK / LIVE SESSION 02 — PLEIN AIR';document.getElementById('showDownload').href=showPlayer.src;document.getElementById('showSound').textContent='Activer le son ♫';showDialog.showModal();document.body.style.overflow='hidden';updateMotion();showPlayer.play().catch(()=>{});}
-        function toggleShowSound(){showPlayer.muted=!showPlayer.muted;document.getElementById('showSound').textContent=showPlayer.muted?'Activer le son ♫':'Couper le son ♫';}
-        showPlayer.addEventListener('volumechange',()=>document.getElementById('showSound').textContent=showPlayer.muted?'Activer le son ♫':'Couper le son ♫');
+        function openShow(n){audio.pause();showPlayer.src='ik-show-'+n+'.mp4';showPlayer.poster='show-'+n+'-poster.jpg';showPlayer.muted=true;document.getElementById('showTitle').textContent=n===1?'IK / LIVE SESSION 01 — EN SALLE':'IK / LIVE SESSION 02 — PLEIN AIR';document.getElementById('showDownload').href=showPlayer.src;document.getElementById('showSound').innerHTML=uiIcon('volume')+'<span>Activer le son</span>';showDialog.showModal();document.body.style.overflow='hidden';updateMotion();showPlayer.play().catch(()=>{});}
+        function toggleShowSound(){showPlayer.muted=!showPlayer.muted;document.getElementById('showSound').innerHTML=uiIcon('volume')+'<span>'+(showPlayer.muted?'Activer le son':'Couper le son')+'</span>';}
+        showPlayer.addEventListener('volumechange',()=>document.getElementById('showSound').innerHTML=uiIcon('volume')+'<span>'+(showPlayer.muted?'Activer le son':'Couper le son')+'</span>');
         function closeShow(){showPlayer.pause();showDialog.close();}
         showDialog.addEventListener('close',()=>{showPlayer.pause();showPlayer.removeAttribute('src');showPlayer.load();document.body.style.overflow='';updateMotion();});
         const langToggle=document.getElementById('langToggle');
