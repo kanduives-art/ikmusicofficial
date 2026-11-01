@@ -1,0 +1,134 @@
+[
+  {
+    "src": "img_0840.jpg",
+    "thumb": "thumb-img_0840.jpg",
+    "category": "live",
+    "alt": "IK en concert sous les lumières violettes"
+  },
+  {
+    "src": "img_0900.jpg",
+    "thumb": "thumb-img_0900.jpg",
+    "category": "live",
+    "alt": "IK sur scène sous les lumières bleues"
+  },
+  {
+    "src": "img_0911.jpg",
+    "thumb": "thumb-img_0911.jpg",
+    "category": "live",
+    "alt": "IK au micro devant les écrans de scène"
+  },
+  {
+    "src": "img_0036.jpg",
+    "thumb": "thumb-img_0036.jpg",
+    "category": "portraits",
+    "alt": "IK au studio, appareil photo rouge à la main"
+  },
+  {
+    "src": "img_0030.jpg",
+    "thumb": "thumb-img_0030.jpg",
+    "category": "portraits",
+    "alt": "Autoportrait d’IK au studio"
+  },
+  {
+    "src": "img_7688.jpg",
+    "thumb": "thumb-img_7688.jpg",
+    "category": "portraits",
+    "alt": "IK en cagoule rouge dans un décor industriel"
+  },
+  {
+    "src": "img_7895.jpg",
+    "thumb": "thumb-img_7895.jpg",
+    "category": "instants",
+    "alt": "IK devant le MAD"
+  },
+  {
+    "src": "img_1002.jpg",
+    "thumb": "thumb-img_1002.jpg",
+    "category": "instants",
+    "alt": "IK au milieu des hortensias"
+  },
+  {
+    "src": "img_9132.jpg",
+    "thumb": "thumb-img_9132.jpg",
+    "category": "portraits",
+    "alt": "Portrait d’IK à une table en bois"
+  },
+  {
+    "src": "img_9122.jpg",
+    "thumb": "thumb-img_9122.jpg",
+    "category": "instants",
+    "alt": "IK dans un intérieur aux matières naturelles"
+  },
+  {
+    "src": "img_6364.jpg",
+    "thumb": "thumb-img_6364.jpg",
+    "category": "instants",
+    "alt": "IK assis sur un véhicule militaire en extérieur"
+  },
+  {
+    "src": "img_0463.jpg",
+    "thumb": "thumb-img_0463.jpg",
+    "category": "artwork",
+    "alt": "Illustration d’IK dans un décor de néons violets"
+  },
+  {
+    "src": "photo2.jpg",
+    "thumb": "thumb-photo2.jpg",
+    "category": "live",
+    "alt": "Ivan Kandu — sur scène"
+  },
+  {
+    "src": "photo4.jpg",
+    "thumb": "thumb-photo4.jpg",
+    "category": "portraits",
+    "alt": "Ivan Kandu — portrait"
+  },
+  {
+    "src": "photo5.jpg",
+    "thumb": "thumb-photo5.jpg",
+    "category": "portraits",
+    "alt": "Ivan Kandu — portrait"
+  },
+  {
+    "src": "photo1.jpg",
+    "thumb": "thumb-photo1.jpg",
+    "category": "live",
+    "alt": "Ivan Kandu — sur scène"
+  },
+  {
+    "src": "photo3.jpg",
+    "thumb": "thumb-photo3.jpg",
+    "category": "instants",
+    "alt": "Ivan Kandu — instant de vie"
+  },
+  {
+    "src": "photo6.jpg",
+    "thumb": "thumb-photo6.jpg",
+    "category": "portraits",
+    "alt": "Ivan Kandu — portrait"
+  },
+  {
+    "src": "photo7.jpg",
+    "thumb": "thumb-photo7.jpg",
+    "category": "portraits",
+    "alt": "Ivan Kandu — portrait"
+  },
+  {
+    "src": "photo8.jpg",
+    "thumb": "thumb-photo8.jpg",
+    "category": "instants",
+    "alt": "Ivan Kandu — instant de vie"
+  },
+  {
+    "src": "photo9.jpg",
+    "thumb": "thumb-photo9.jpg",
+    "category": "portraits",
+    "alt": "Ivan Kandu — portrait"
+  },
+  {
+    "src": "photo10.jpg",
+    "thumb": "thumb-photo10.jpg",
+    "category": "portraits",
+    "alt": "Ivan Kandu — portrait"
+  }
+]
